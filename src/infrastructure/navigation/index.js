@@ -1,8 +1,6 @@
 import React from "react";
+import { AppNavigator } from "./app.navigator";
 
-import AppNavigation from "./app.navigation";
-const Navigation = () => {
-  return <AppNavigation />;
+export const Navigation = () => {
+  return <AppNavigator />;
 };
-
-export default Navigation;
